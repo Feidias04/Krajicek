@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
+ <head><!--  ščřžýŠČŘŽÝ -->
+  <meta name="generator" content="PSPad editor, www.pspad.com" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <title>formulář pro zákazníka</title>
+<style type="text/css">
+
+
+/*body{background: url("back3.jpg") repeat-y  #ffffcc;
+background-position:center;
+}*/
+
+.horniramecek{
+border : solid 2px #36F; 
+margin-top:10px;
+background:url("buttons/poz2.gif") 100%  repeat-y ;
+} 
+.horniramecek label{
+  display:block;
+  width:320px;
+  text-align: right;
+  padding-right:1px;
+  
+  margin: 3px 10px;
+  } 
+ 
+  
+.horniramecek div {
+padding: 4px 0;
+  margin: 4px 0;
+ 
+  } 
+  
+label {
+  display:block;
+  width:200px;
+  text-align: right;
+  float:left;
+  padding-right:5px;
+  padding-top:4px;
+  margin: 3px 0 0px;
+  
+  }
+  input{margin:5px 0 5px 0;}
+  
+  input.text{
+  padding : 0 0 0 3px;
+  width:640px;}
+body{
+	 
+	background: rgb(51,102,255);
+	
+	/*-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;*/
+	
+	 margin-top:0px;
+	 margin-left:0px;
+	 } 
+	 
+#form{
+  position:absolute;
+  
+  width:644px;
+  left:50%;
+  margin-left:-322px;
+ 
+  margin-top:0px;
+  
+  background: url("buttons/poz4.gif") repeat-y #99CCFF;
+  background-position:center;
+
+  border: solid #36F  2px;
+  }
+   .vetsi{font-size:20px;
+   display:inline;
+   text-align:center;
+   color:black;
+   padding:50px;
+   margin-bottom:20px;
+   
+   }
+    
+
+    
+  a .idosubmit
+    {
+    background:url("buttons/button_1.gif") no-repeat;
+    width:94px;
+    height:20px;
+    border:0;
+    }  
+  a:hover .idosubmit
+    {
+    background:url("buttons/button_1_over.gif") no-repeat;
+    width:94px;
+    height:20px;
+    border:0;
+    cursor : pointer;
+    } 
+   a:hover #idoreset
+    {
+    background:url("buttons/storno_over.gif") no-repeat ;
+    width:94px;
+    height:20px;
+    border:0;
+    } 
+   a #idoreset
+    {
+    background:url("buttons/storno.gif") no-repeat ;
+    width:94px;
+    height:20px;
+    border:0;
+    cursor : pointer;
+    } 
+  
+  .hrdole{color:#00f; /* zde nastavime styl pro horizontalni linky hr*/
+  height:0px;
+  background-color:#fff;
+  height:1px;
+  }
+  .legend{color:#FF6600; }
+</style>
+  
+<SCRIPT language="javascript" type="text/javascript">
+</SCRIPT> 
+</head>
+
+
+<body>
+
+  <form name="form" action="skript.php" method="post"  id="form" >
+  <fieldset >
+  <legend align="right" > <div class="vetsi" >Registrace nového zákazníka </div></legend>
+<hr  class="hrdole"  />
+<div class="horniramecek">
+
+    <div>
+    <label for="ujmeno">Zadejte si jméno pro přihlášení do systému: </label><input class="sirka" type="text"   name="ujmeno" />
+    </div>
+  
+    <div>
+    <label for="ujmeno">Nastavte si svoje heslo: </label><input type="password" class="sirka"  name="heslo" />
+    </div>
+</div>
+<hr   class="hrdole"  />
+    <div>
+    <label for="jmeno">Zadejte Vaše jméno: </label><input type="text"   name="jmeno" />
+    </div>
+<hr  class="hrdole"  />
+    <div>
+    <label for="prijmeni">Zadejte Vaše příjmení: </label> <input type="text"   name="prijmeni" />
+    </div>
+<hr   class="hrdole" />
+    <div>
+    <label for="datum">Zadejte Vaše datum narození: </label> <input type="text"   name="datum" />
+    </div>
+<hr  class="hrdole"  />
+     <div>
+     <label for="email">Zadejte Váš E-mail: </label><input type="text"   name="email" />
+     </div>
+<hr  class="hrdole"  />
+    </div>
+    <div>
+    <label for="adresa">Zadejte Vaší adresu: </label><input type="text" id="adresa" value=""  size="57" name="adresa" />
+    </div>
+<hr  class="hrdole"/>
+    <div>
+    <label for="telefon">Číslo Vašeho telefonu: </label><input type="text" id="telefon" value=""   name="telefon" />
+    </div>
+<hr   class="hrdole" />
+ <center>
+ Pokud máte další jiné požadavky, napište je sem:
+ <textarea id="oTextArea1" value="SEM NAPIŠTE SVŮM KOMENTÁŘ" rows="5" cols="68"></textarea>
+  <hr size="1" class="hrdole" />
+ <a href="#"><input  type="submit" value="" class="idosubmit" alt="odešli formulář" title="odešli formulář"></a>
+ <a href="#"><input  type="reset" value="" id="idoreset" alt="vymaž formulář" title="vymaž formulář"> </a>
+ 
+  <hr size="0" class="hrdole" />
+ </center>
+ </fieldset>
+</form>
+</body>
+</html>

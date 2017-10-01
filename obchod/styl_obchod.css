@@ -1,0 +1,123 @@
+/* CSS Document */
+body{
+	 /*-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;*/
+	
+ margin-top:0px;
+	 /*	margin-left:0px;*/
+	 padding-top:0px;
+	 background: url("../back3.jpg") repeat-y  #ffc;
+  background-position:center;
+	 } 
+	 
+.horniramecek{
+border : solid 2px #36F; 
+margin-top:10px;
+background:url("../buttons/poz2.gif") 100%  repeat-y ;
+} 
+.horniramecek label{
+  display:block;
+  width:320px;
+  text-align: right;
+  padding-right:1px;
+  
+  margin: 3px 10px;
+  } 
+ 
+  
+.horniramecek div {
+padding: 4px 0;
+  margin: 4px 0;
+ 
+  } 
+  
+label {
+  display:block;
+  width:200px;
+  text-align: right;
+  float:left;
+  padding-right:5px;
+  padding-top:4px;
+  margin: 3px 0 0px;
+  
+  }
+  input{margin:5px 0 5px 0;}
+  
+  input.text{
+  padding : 0 0 0 3px;
+  width:640px;}
+
+	 
+#form{
+  position:absolute;
+    
+  width:633px;
+  left:50%;
+  margin-left:-322px;
+ 
+  margin-top:0px;
+  margin-bottom:20px;
+  background: url("../buttons/poz4.gif") repeat-y #99CCFF;
+  background-position:center;
+ 
+  border: solid #36F  2px;
+  }
+   .vetsi{font-size:20px;
+   display:inline;
+   text-align:center;
+   color:black;
+   padding:50px;
+   margin-bottom:20px;
+   
+   }
+    
+ 
+    
+  a .idosubmit
+    {
+    background:url("../buttons/button_1.gif") no-repeat;
+    width:94px;
+    height:20px;
+    border:0;
+    }  
+  a:hover .idosubmit
+    {
+    background:url("../buttons/button_1_over.gif") no-repeat;
+    width:94px;
+    height:20px;
+    border:0;
+    cursor : pointer;
+    } 
+   a:hover #idoreset
+    {
+    background:url("../buttons/storno_over.gif") no-repeat ;
+    width:94px;
+    height:20px;
+    border:0;
+    } 
+   a #idoreset
+    {
+    background:url("../buttons/storno.gif") no-repeat ;
+    width:94px;
+    height:20px;
+    border:0;
+    cursor : pointer;
+    } 
+  
+  .hrdole{color:#00f; /* zde nastavime styl pro horizontalni linky hr*/
+  height:0px;
+  background-color:#fff;
+  height:1px;
+  }
+  .legend{color:#FF6600; }
+.dole{
+position:absolute;
+
+width:633px;
+height:500px;
+  left:50%;
+  margin-left:-320px;
+  margin-top:180px;
+
+ }
