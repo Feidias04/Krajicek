@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="myApp">
+  <head>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/angular.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/angular-animate.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/marked.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/dist/angular-screenfull.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+
+<div ngsf-fullscreen>
+    <p>This is yet another fullscreen element</p>
+    <a ngsf-toggle-fullscreen show-if-fullscreen-enabled>
+        <i show-if-fullscreen=false>Icon for enter fullscreen</i>
+        <i show-if-fullscreen=true>Icon for exit fullscreen</i>
+    </a>
+</div>
+
+
+  </body>
+</html>
