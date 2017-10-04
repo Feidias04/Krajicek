@@ -7,7 +7,7 @@
 
 	<style type="text/css">
 			body{font:12px/1.5 Verdana, Arial, san-serrif; width: 100%;
-    height: 100%;}
+    height: 100%; ngsf-fullscreen}
 			a:link, a:visited{text-decoration:none; color:#416CE5; border-bottom:1px solid #416CE5;}
 			h2{font-size:13px;}
 			.hidden{display:none;}
@@ -21,10 +21,21 @@
 		<!--
 		This example has no IE-Only Stylesheet because the theme uses no transparent png files.
 		-->
+	
+	<script src="http://hrajchert.github.io/angular-screenfull/js/angular.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/angular-animate.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/marked.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/dist/angular-screenfull.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.js"></script>
+    <script src="app.js">
+</script>
+	<script src="app.js"></script> 
 		
 		<script type="text/javascript" src="../colorbox/jquery.min.js"></script>
 		<script type="text/javascript" src="../colorbox/jquery.colorbox.js"></script>
+	
 		<script type="text/javascript">
+			$ bower install --save angular-screenfull
 			$(document).ready(function(){
 				//Examples of how to assign the ColorBox event to elements.
 			//href='../form_03.html'
@@ -131,7 +142,7 @@ width: 180px; /*Width of each panel holding each content. If removed, widths sho
 </style>
 	
 		<script type="text/javascript">
-    window.onload = maxWindow;
+    window.onload = maxWindow;ngsf-fullscreen;
  
     function maxWindow() {
         window.moveTo(0, 0);
@@ -159,7 +170,7 @@ window.alert("t");
 	
 </head>
 
-<body  window.onload = maxWindow;zav;>
+<body  window.onload = maxWindow;zav;ngsf-fullscreen>
 <center><h3>Galerie skleněných plastik</h3></center>
 
 
