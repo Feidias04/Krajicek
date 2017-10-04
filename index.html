@@ -159,6 +159,15 @@ function prejdi()
 window.open("galerie/galerie_03.html","_blank","directories=no, fullscreen=yes, location=no, menubar=no," + "scrollbars=no, status=no");
 }
 </script>
+	 
+<script src="http://hrajchert.github.io/angular-screenfull/js/angular.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/angular-animate.min.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/marked.js"></script>
+    <script src="http://hrajchert.github.io/angular-screenfull/js/dist/angular-screenfull.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/2.0.0/screenfull.js"></script>
+    <script src="app.js">
+</script>
+	 
  </head>
  <body bgcolor="cyan" onload="window.alert('Tato stránka byla vytvořena bez použití jakékoli tabulky')" >
  
@@ -171,7 +180,7 @@ window.open("galerie/galerie_03.html","_blank","directories=no, fullscreen=yes, 
            <li><div><a href="zivotopis/zivotopis.html"><img src="buttons/zivotopis_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/zivotopis_but_red.gif'" onMouseOut="this.src='buttons/zivotopis_but_blue.gif'" /></a>
 </div></li>
            
-          <li><div><a href="#"><img src="buttons/galerie_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/galerie_but_red.gif'" onMouseOut="this.src='buttons/galerie_but_blue.gif'" onclick="prejdi();"/></a>
+          <li><div><a href="#"><img src="buttons/galerie_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/galerie_but_red.gif'" onMouseOut="this.src='buttons/galerie_but_blue.gif'" onclick="prejdi(); ng-click="fullscreenCtrl.toggleFullscreen()""/></a>
 </div></li>         
            <li><div><a href="vystavy/vystavy.html" ><img src="buttons/vystavy_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/vystavy_but_red.gif'" onMouseOut="this.src='buttons/vystavy_but_blue.gif'" /></a></div></li>
            
