@@ -149,8 +149,19 @@ window.open("galerie/galerie_03.html","_blank","directories=no, fullscreen=yes, 
            <li><div><a href="#"><img src="../buttons/zivotopis_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/zivotopis_but_red.gif'" onMouseOut="this.src='buttons/zivotopis_but_blue.gif'" onclick="fun1("iframe_");" /></a>
 </div></li>
            
-          <li><div><a href="#"><img src="../buttons/galerie_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/galerie_but_red.gif'" onMouseOut="this.src='buttons/galerie_but_blue.gif'" onclick="prejdi();"/></a>
-</div></li>         
+          <li><div><a href="#"><img src="../buttons/galerie_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/galerie_but_red.gif'" onMouseOut="this.src='buttons/galerie_but_blue.gif'" onclick="openMax()";/></a>
+<script>
+function openMax() { 
+var wihe = 'width='+screen.availWidth+',height='+screen.availHeight; 
+window.open("galerie/gallery_03.html",
+			
+			
+"foo", 
+"screenX=1,screenY=1,left=1,top=1," + wihe); 
+}
+</script>
+		  
+		  </div></li>         
            <li><div><a href="../vystavy/vystavy.html" target='frame1'><img src="../buttons/vystavy_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/vystavy_but_red.gif'" onMouseOut="this.src='buttons/vystavy_but_blue.gif'" /></a></div></li>
            
            <li><div><a href="#"><img src="../buttons/obchod_but_blue.gif" width="150" height="20"  alt="galerie" border="0" onMouseOver="this.src='buttons/obchod_but_red.gif'" onMouseOut="this.src='buttons/obchod_but_blue.gif'" onclick="fun();"/></a>
