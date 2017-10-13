@@ -145,33 +145,13 @@ width: 180px; /*Width of each panel holding each content. If removed, widths sho
 		
 		}
 </style>
-	
-		<script type="text/javascript">
-    window.onload = maxWindow;
- 
-    function maxWindow() {
-        window.moveTo(0, 0);
- 
- 
-        if (document.all) {
-            top.window.resizeTo(screen.availWidth, screen.availHeight);
-        }
- 
-        else if (document.layers || document.getElementById) {
-            if (top.window.outerHeight < screen.availHeight || top.window.outerWidth < screen.availWidth) {
-                top.window.outerHeight = screen.availHeight;
-                top.window.outerWidth = screen.availWidth;
-            }
-        }
-    }
- 
-</script>
+
 
 
 	
 </head>
 
-<body  window.onload = "maxWindow()"; "window.alert('Tato stránka byla vytvořena bez použití jakékoli tabulky')">
+<body  window.onload = "window.alert('Tato stránka byla vytvořena bez použití jakékoli tabulky')">
 <center><h3>Galerie skleněných plastik</h3></center>
 
 
